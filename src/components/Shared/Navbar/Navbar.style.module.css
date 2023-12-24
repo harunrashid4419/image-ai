@@ -1,0 +1,107 @@
+.navbarSection {
+  border-radius: 100px;
+  border: 1px solid #f9a65a5c;
+  background: #0f0f26;
+  backdrop-filter: blur(4px);
+  padding: 16px 24px;
+  margin-top: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+.navbarSection .logoText {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Helvetica Neue;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%; /* 22px */
+  letter-spacing: 0.22px;
+}
+.navbarSection .logo {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+.nav_wrap {
+  border-radius: 100px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: #18183d;
+  box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.08);
+  display: flex;
+  padding: 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  margin: 0;
+}
+.nav_wrap a,
+select {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  background: transparent;
+  border: none;
+  line-height: 100%; /* 16px */
+  letter-spacing: -0.32px;
+}
+.sign_wrap {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.signIn {
+  color: #a5a6a9;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%; /* 16px */
+  letter-spacing: -0.32px;
+  padding: 12px 20px;
+}
+.sign_free {
+  border-radius: 100px;
+  background: #fff;
+  display: flex;
+  padding: 12px 16px;
+  align-items: flex-start;
+  gap: 8px;
+  cursor: pointer;
+}
+.btn_text {
+  color: #121212;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%; /* 16px */
+  letter-spacing: -0.32px;
+}
+.menu {
+  display: none;
+}
+.mobileMenu {
+  color: white;
+  font-size: 32px;
+}
+@media screen and (max-width: 1260px) {
+  .nav_wrap {
+    gap: 15px;
+    padding: 10px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .nav_wrap {
+    display: none;
+  }
+  .sign_wrap {
+    display: none;
+  }
+  .menu {
+    display: block;
+  }
+}

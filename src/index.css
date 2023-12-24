@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #05051d;
+}
+a,
+p,
+li {
+  text-decoration: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 1280px;
+  padding: 0 80px;
+  margin: 0 auto;
+}
+@media screen and (max-width: 1280px) {
+  .container{
+    padding: 0 50px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .container{
+    padding: 0 30px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .container{
+    padding: 0 20px;
+  }
+}
